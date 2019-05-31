@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>FINBOT Cadastro</title>
+    <link rel="stylesheet" href="css/Cadastro.css">
+
+  </head>
+  <body>
+    <div class="loginbox">
+           <img src="image/avatar.png" class="avatar">
+           <h1>Inicie seu Cadastro</h1>
+           <form action="" method="POST">
+               <p>Nome completo</p>
+               <input id="validaNome" type="text" name="txtName" placeholder="Informe seu nome completo">
+               <p>CPF</p>
+               <input id="validaCPF"type="text" name="txtSenha" placeholder="Informe seu CPF">
+               <p>Estado</p>
+               <input id="validaEstado"type="text" name="txtSenha" placeholder="Informe seu estado">
+               <p>Cidade</p>
+               <input id="validaCidade"type="text" name="txtSenha" placeholder="Informe sua cidade">
+               <p>Data de Nascimento</p>
+               <input id="validaDataNascimento"type="date" name="txtSenha" placeholder="Informe sua data de nascimento">
+               <p>Sexo</p>
+               <input id="validaSexo"type="text" name="txtSenha" placeholder="Informe seu Sexo">
+               <p>Email</p>
+               <input id="validaEmail"type="email" name="txtSenha" placeholder="Informe seu Email">
+               <p>Senha</p>
+               <input id="validaSenha"type="password" name="txtSenha" placeholder="Informe sua senha">
+               <p>Confirma Senha</p>
+               <input id="validaConfirmaSenha"type="password" name="txtSenha" placeholder="Confirme sua senha">
+               <input id="analiza" type="button" name="enviaCadastro" value="Verifica Informações">
+               <input id="enviar"type="submit" onclick="enviaForm" name="enviaCadastro" value="Cadastar">
+
+               <p class="linkQualquer">  <a href="login.html"> Voltar para o Login!</a> </p>
+               <p class="linkQualquer">  <a href="index.html"> Voltar para o Site!</a></p>
+           </form>
+       </div>
+
+      <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+      <script type="text/javascript" src="js/cadastro.js"></script>
+  </body>
+</html>
